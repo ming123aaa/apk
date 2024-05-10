@@ -1,0 +1,47 @@
+/* 移除默认的列表样式 */  
+.styled-list {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+/* 为列表项添加样式 */  
+.styled-list li {  
+    position: relative;  
+    padding: 10px;  
+    border-bottom: 1px solid #ddd;  
+    font-size: 16px;  
+    color: #333;  
+}  
+  
+/* 可选的额外样式，如添加背景色或边框 */  
+.styled-list li:hover {  
+    background-color: #f5f5f5;  
+    cursor: pointer;  
+}  
+  
+/* 标题和描述的样式 */  
+.styled-list li .title {  
+    font-weight: bold;  
+}  
+  
+.styled-list li .describe {  
+    margin-top: 5px;  
+    color: #666;  
+    word-wrap: break-word;
+}
+
+.download-btn {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: #fff;  
+    background-color: #007BFF; /* 蓝色背景 */  
+    border: none;  
+    border-radius: 4px; /* 圆角 */  
+    cursor: pointer; /* 鼠标悬停时变为小手 */  
+    transition: background-color 0.3s ease; /* 平滑的背景色过渡 */  
+}  
+  
+.download-btn:hover {  
+    background-color: #0056b3; /* 鼠标悬停时背景色变暗 */  
+}
