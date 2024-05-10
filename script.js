@@ -57,7 +57,7 @@ function addListItems(data) {
                 // 创建隐藏的a标签来触发下载  
                 var a = document.createElement('a');  
                 a.href = item.apkPath; // 设置下载链接  
-                a.download = 'app.apk'; // 设置下载的文件名，这里可以根据需要更改  
+                a.download = item.title+'.apk'; // 设置下载的文件名，这里可以根据需要更改  
                 a.style.display = 'none'; // 隐藏a标签  
                 document.body.appendChild(a); // 将a标签添加到body中  
                 a.click(); // 模拟点击a标签来触发下载  
