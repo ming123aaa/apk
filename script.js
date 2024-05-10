@@ -22,6 +22,8 @@ var data = [
     "apkPath":"./apk/xposed_activity.apk"} , 
     {"title":"LSPatch","describe":"免rootxp模块框架APP。",
     "apkPath":"./apk/lspatch.apk"} , 
+    {"title":"文件复制","describe":"一些应用的文件无法通过文件管理器范问 如qq、微信等,可通过将文件分享到本应用,然后就可将文件复制到可范问的文件夹下。",
+    "apkPath":"./apk/fileCopy.apk"} , 
 ];  
   
 function addListItems(data) {    
