@@ -24,6 +24,8 @@ var data = [
     "apkPath":"./apk/lspatch.apk"} , 
     {"title":"文件复制","describe":"一些应用的文件无法通过文件管理器范问 如qq、微信等,可通过将文件分享到本应用,然后就可将文件复制到可范问的文件夹下。",
     "apkPath":"./apk/fileCopy.apk"} , 
+    {"title":"fakeScreen","describe":"功能:黑屏界面、黑屏悬浮窗、强行改变手机的横竖屏。适合用于游戏挂机,强行改变游戏的横竖屏。",
+    "apkPath":"./apk/fakeScreen.apk"} , 
 ];  
   
 function addListItems(data) {    
