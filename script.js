@@ -26,6 +26,8 @@ var data = [
     "apkPath":"./apk/fileCopy.apk"} , 
     {"title":"fakeScreen","describe":"功能:黑屏界面、黑屏悬浮窗、强行改变手机的横竖屏。适合用于游戏挂机,强行改变游戏的横竖屏。",
     "apkPath":"./apk/fakeScreen.apk"} , 
+    {"title":"定时壁纸","describe":"功能:可定时切换手机壁纸和锁屏。",
+        "apkPath":"./apk/wallPaper.apk"} , 
 ];  
   
 function addListItems(data) {    
