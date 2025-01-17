@@ -59,7 +59,10 @@ var data = [
     {
         "title": "clash", "describe": "功能:vpn科学上网。",
         "apkPath": "./apk/clash.apk"
-    },
+    },{
+        "title": "PackageViewer", "describe": "功能:查看安装的apk",
+        "apkPath": "./apk/PackageViewer.apk"
+    }
 ];
 
 function addListItems(data) {
